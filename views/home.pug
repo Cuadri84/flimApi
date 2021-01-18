@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+    body
+
+        h1 Encuentra informacion sobre peliculas
+        
+        form(action="/film", method="POST" target="_blank")
+
+            fieldset
+                legend PELÍCULA
+
+                label(for="_name") Nombre de la película
+                    input(type="text" placeholder="nombre de la película" name="pe_li")
+                
+                //- <input tabindex="1" placeholder="escribe tu nombre" type="text" name="name" id="_name" autofocus><br>
+
+                
+                input(type="submit", value="ENVIAR") 
+
+                
+
+
